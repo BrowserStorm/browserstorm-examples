@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": false,
+    "jsx": "react",
+    "module": "commonjs",
+    "downlevelIteration": true,
+    "declaration": true,
+    "lib": ["es6", "dom"],
+    "incremental": false,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "target": "es5",
+    "skipLibCheck": true
+  },
+  "include": ["flows/*"],
+  "exclude": ["node_modules"]
+}

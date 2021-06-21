@@ -1,0 +1,32 @@
+{
+  "name": "browserstorm-examples",
+  "version": "1.0.0-beta.0",
+  "license": "MIT",
+  "author": "BrowserStorm <hey@browserstorm.com",
+  "description": "Examples of BrowserStorm flows",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrowserStorm/browserstorm-examples.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BrowserStorm/browserstorm-examples/issues"
+  },
+  "homepage": "https://github.com/BrowserStorm/browserstorm-examples#readme",
+  "dependencies": {
+    "@browserstorm/runtime": "latest",
+    "dayjs": "^1.10.5",
+    "faker": "^5.5.3",
+    "lodash": "^4.17.21",
+    "playwright": "^1.12.2",
+    "puppeteer": "^10.0.0",
+    "typescript": "^4.3.2"
+  },
+  "devDependencies": {
+    "@types/faker": "^5.5.6",
+    "@types/lodash": "^4.14.170"
+  }
+}
