@@ -17,6 +17,10 @@ async function onReady(page: Page, { data }: ExecProps) {
     password: string;
   }>("credentials");
 
+  await page.goto("https://google.com", { waitUntil: "networkidle0" });
+
+  await page.waitForSelector('input[value="Google Search"]');
+
   await page.goto("https://chaos.browserstorm.com/", {
     waitUntil: "networkidle0",
   });
